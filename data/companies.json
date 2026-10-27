@@ -1,0 +1,8 @@
+[
+  {"company_id": "CO01", "name": "Hudson Fleet Co", "zone_id": "Z01", "industry": "taxi_fleet"},
+  {"company_id": "CO02", "name": "Broadway Logistics", "zone_id": "Z01", "industry": "delivery"},
+  {"company_id": "CO03", "name": "Brooklyn Loop Cars", "zone_id": "Z07", "industry": "taxi_fleet"},
+  {"company_id": "CO04", "name": "Queens Quick Cab", "zone_id": "Z12", "industry": "taxi_fleet"},
+  {"company_id": "CO05", "name": "Bronx Metro Transit", "zone_id": "Z15", "industry": "transit"},
+  {"company_id": "CO06", "name": "UES Concierge Rides", "zone_id": "Z03", "industry": "livery"}
+]

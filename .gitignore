@@ -1,0 +1,16 @@
+.env
+.env.local
+.venv/
+__pycache__/
+*.py[cod]
+.whytrace/
+.pytest_cache/
+.mypy_cache/
+node_modules/
+vendor/
+meterless-hmem/
+*.egg-info/
+dist/
+build/
+artifacts/
+.DS_Store

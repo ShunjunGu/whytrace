@@ -1,0 +1,12 @@
+[
+  {"collision_id": "C1001", "zone_id": "Z01", "borough": "Manhattan", "injured": 2, "severity": 0, "month": "2026-09"},
+  {"collision_id": "C1002", "zone_id": "Z01", "borough": "Manhattan", "injured": 1, "fatal": 0, "month": "2026-09"},
+  {"collision_id": "C1003", "zone_id": "Z01", "borough": "Manhattan", "injured": 0, "fatal": 1, "month": "2026-09"},
+  {"collision_id": "C1004", "zone_id": "Z07", "borough": "Brooklyn", "injured": 3, "fatal": 0, "month": "2026-09"},
+  {"collision_id": "C1005", "zone_id": "Z07", "borough": "Brooklyn", "injured": 1, "fatal": 0, "month": "2026-09"},
+  {"collision_id": "C1006", "zone_id": "Z12", "borough": "Queens", "injured": 0, "fatal": 0, "month": "2026-09"},
+  {"collision_id": "C1007", "zone_id": "Z03", "borough": "Manhattan", "injured": 1, "fatal": 0, "month": "2026-09"},
+  {"collision_id": "C1008", "zone_id": "Z07", "borough": "Brooklyn", "injured": 2, "fatal": 0, "month": "2026-08"},
+  {"collision_id": "C1009", "zone_id": "Z01", "borough": "Manhattan", "injured": 0, "fatal": 0, "month": "2026-08"},
+  {"collision_id": "C1010", "zone_id": "Z15", "borough": "Bronx", "injured": 4, "fatal": 0, "month": "2026-09"}
+]
