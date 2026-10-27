@@ -92,6 +92,6 @@ Analyst → WhyTrace Agent
 **Team:** Gu Shunjun / WhyTrace  
 **Repo:** https://github.com/ShunjunGu/whytrace  
 **Demo video:** https://github.com/ShunjunGu/whytrace/releases/download/demo-video/whytrace-demo.mp4  
-**Contact:** gushunjun72@gmail.com
+**Contact via GitHub:** https://github.com/ShunjunGu/whytrace
 
 Thank you, judges.
