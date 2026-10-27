@@ -77,7 +77,7 @@ Analyst → WhyTrace Agent
 
 ## 9. Built this sprint / next
 
-**Done:** end-to-end ask → cite → audit · live hooks · docs · demo script  
+**Done:** end-to-end ask → cite → audit · live-ready client hooks (default mock) · docs · demo script  
 
 **Next:** live cookbooks · vendor real H-MEM · optional Nemotron · thin UI
 
