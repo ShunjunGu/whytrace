@@ -12,7 +12,8 @@ Evidence-backed answers across fragmented data
 Open Agent Hackathon 2026  
 **Track 02 — The Agent That Can Explain Why**
 
-Team · Repo · Video
+**Team:** Gu Shunjun / WhyTrace (solo)  
+**Repo:** https://github.com/ShunjunGu/whytrace
 
 ---
 
@@ -88,6 +89,9 @@ Analyst → WhyTrace Agent
 
 **Data plane: Zetaris. Why plane: Meterless.**
 
-Repo · Demo · Slides  
+**Team:** Gu Shunjun / WhyTrace  
+**Repo:** https://github.com/ShunjunGu/whytrace  
+**Demo video:** https://github.com/ShunjunGu/whytrace/releases/download/demo-video/whytrace-demo.mp4  
+**Contact:** gushunjun72@gmail.com
 
 Thank you, judges.

@@ -63,10 +63,19 @@
     font-size: 28px; font-weight: 600; border-left: 4px solid var(--accent);
     padding-left: 18px; margin: 28px 0; color: #f8fafc;
   }
+  a { color: var(--accent); text-decoration: none; word-break: break-all; }
+  a:hover { text-decoration: underline; }
+  .links { margin-top: 18px; }
+  .links p { font-size: 16px; margin: 8px 0; line-height: 1.4; }
   @media print {
-    body { background: #fff; }
+    body { background: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
     .deck { max-width: none; padding: 0; }
-    .slide { margin: 0; border-radius: 0; border: none; min-height: 100vh; }
+    .slide {
+      margin: 0; border-radius: 0; border: none;
+      min-height: 100vh; page-break-after: always; break-after: page;
+    }
+    .slide:last-of-type { page-break-after: auto; break-after: auto; }
+    .print-tip { display: none; }
   }
 </style>
 </head>
@@ -78,6 +87,10 @@
   <h1>WhyTrace</h1>
   <p>Evidence-backed answers across fragmented data</p>
   <p class="muted">The Agent That Can Explain Why</p>
+  <div class="links">
+    <p class="muted">Team: <strong style="color:var(--fg)">Gu Shunjun / WhyTrace</strong> (solo)</p>
+    <p class="muted">Repo: <a href="https://github.com/ShunjunGu/whytrace">github.com/ShunjunGu/whytrace</a></p>
+  </div>
   <div class="footer"><span>WhyTrace</span><span>1 / 10</span></div>
 </section>
 
@@ -164,13 +177,18 @@
 <section class="slide">
   <h2>Closing</h2>
   <p><strong>Data plane: Zetaris.&nbsp;&nbsp;Why plane: Meterless.</strong></p>
-  <p class="muted">Repo · Demo video · Slides</p>
-  <p>Thank you, judges.</p>
+  <div class="links">
+    <p>Team: <strong>Gu Shunjun / WhyTrace</strong></p>
+    <p>Repo: <a href="https://github.com/ShunjunGu/whytrace">https://github.com/ShunjunGu/whytrace</a></p>
+    <p>Demo video: <a href="https://github.com/ShunjunGu/whytrace/releases/download/demo-video/whytrace-demo.mp4">whytrace-demo.mp4</a></p>
+    <p class="muted">Contact: gushunjun72@gmail.com</p>
+  </div>
+  <p style="margin-top:28px">Thank you, judges.</p>
   <div class="footer"><span>WhyTrace</span><span>10 / 10</span></div>
 </section>
 
 </div>
-<p class="muted" style="text-align:center;padding:8px 24px 40px">
+<p class="muted print-tip" style="text-align:center;padding:8px 24px 40px">
   Tip: open this file in a browser → Print → Save as PDF. Arrow keys / scroll to review slides.
 </p>
 </body>
